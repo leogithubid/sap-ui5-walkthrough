@@ -1,0 +1,6 @@
+<!-- We have to add namespaces that are required for the controls that we will use -->
+<mvc:View
+xmlns:mvc="sap.ui.core.mvc"
+xmlns="sap.m">
+<Text text="Hello I am XML View"></Text>
+</mvc:View>

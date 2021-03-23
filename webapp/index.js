@@ -6,7 +6,7 @@ Sap.ui.define([
     'use strict';
     
 }); */
-sap.ui.define([
+/* sap.ui.define([
     "sap/m/Text"
 ], function(oText) {
     'use strict';
@@ -15,4 +15,17 @@ sap.ui.define([
         text:"Hello ! I am Text control"
     }
 ).placeAt("pageContent")
+}); */
+
+sap.ui.define([
+	"sap/ui/core/mvc/XMLView"
+], function (XMLView) {
+	"use strict";
+
+	XMLView.create({
+		viewName: "home.view.welcome"
+	}).then(function (oView) {
+		oView.placeAt("viewContent");
+	});
+
 });
